@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gradient-to-br from-pastel-pink to-pastel-blue text-gray-800;
+}
+
+.preview-canvas {
+  @apply border-2 border-pastel-purple rounded-lg shadow-lg;
+}
+
+.product-card {
+  @apply bg-white rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 overflow-hidden;
+}
+
+.btn-primary {
+  @apply px-6 py-3 bg-pastel-purple text-white rounded-lg font-semibold hover:bg-opacity-90 transition-all;
+}
+
+.btn-secondary {
+  @apply px-6 py-3 bg-pastel-pink text-white rounded-lg font-semibold hover:bg-opacity-90 transition-all;
+}
